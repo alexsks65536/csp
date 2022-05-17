@@ -2,6 +2,8 @@
 5. Написать код, который выполняет пинг веб-ресурсов yandex.ru, youtube.com и преобразовывает результат из
 байтовового типа данных в строковый без ошибок для любой кодировки операционной системы.
 """
+
+
 import subprocess
 
 import chardet
@@ -18,3 +20,4 @@ for site in sites:
             print(bar.decode('utf-8'))
         else:
             site_ping.kill()
+
