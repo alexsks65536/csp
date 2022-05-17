@@ -6,11 +6,10 @@ encode, decode или функцию bytes) и определить тип, со
 
 str_1 = ['class', 'function', 'method']
 
-# for i in str_1:
-#     s = eval(str('b') + i)
-#     print(s, type(s))
+for i in str_1:
+    s = eval(f"b'{i}'")
+    print(s, type(s))
+    print('length of world:', len(i))
 
-bytes_1 = b'str_1'
-print(type(bytes_1))
 
-print(str('b') + str_1[1])
+
