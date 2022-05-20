@@ -9,16 +9,16 @@ from chardet import detect
 
 str_1 = ['сетевое программирование', 'сокет', 'декоратор']
 
-with open('test_file.txt', 'w') as file:
+with open('../test_file.txt', 'w') as file:
     for foo in str_1:
         file.write(f'{foo}\n')
 file.close()
 
-with open('test_file.txt', 'rb') as file:
+with open('../test_file.txt', 'rb') as file:
     bar = file.read()
 bar_code = detect(bar)['encoding']
 print(bar_code)
 
-with open('test_file.txt', 'r', encoding=bar_code) as file:
+with open('../test_file.txt', 'r', encoding=bar_code) as file:
     bar = file.read()
 print(bar)
