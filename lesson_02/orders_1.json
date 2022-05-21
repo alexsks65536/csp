@@ -1,0 +1,123 @@
+{
+    "orders": [
+        {
+            "item": "scaner",
+            "quantity": "2",
+            "price": "9500",
+            "buyer": "Kovalsky S.I.",
+            "date": "05.08.2021"
+        },
+        {
+            "item": "printer",
+            "quantity": "5",
+            "price": "5600",
+            "buyer": "Petrovsky W.F.",
+            "date": "26.10.2021"
+        },
+        {
+            "item": "monitor",
+            "quantity": "4",
+            "price": "10500",
+            "buyer": "Smith J.S.",
+            "date": "30.11.2021"
+        },
+        {
+            "item": "notebook",
+            "quantity": "8",
+            "price": "15800",
+            "buyer": "Swarowsky L.J.",
+            "date": "05.04.2022"
+        },
+        {
+            "item": "mfu",
+            "quantity": "6",
+            "price": "18500",
+            "buyer": "Semenov A.C.",
+            "date": "19.12.2021"
+        },
+        {
+            "item": "mfu",
+            "quantity": "6",
+            "price": "18500",
+            "buyer": "Semenov A.C.",
+            "date": "19.12.2021"
+        },
+        {
+            "item": "videodeck",
+            "quantity": "2",
+            "price": "1500",
+            "buyer": "Warshavsky D.O.",
+            "date": "19.11.2021"
+        },
+        {
+            "item": "computer",
+            "quantity": "3",
+            "price": "28500",
+            "buyer": "Turovsky A.L.",
+            "date": "18.12.2021"
+        },
+        {
+            "item": "mfu",
+            "quantity": "6",
+            "price": "18500",
+            "buyer": "Semenov A.C.",
+            "date": "19.12.2021"
+        },
+        {
+            "item": "videodeck",
+            "quantity": "2",
+            "price": "1500",
+            "buyer": "Warshavsky D.O.",
+            "date": "19.11.2021"
+        },
+        {
+            "item": "computer",
+            "quantity": "3",
+            "price": "28500",
+            "buyer": "Turovsky A.L.",
+            "date": "18.12.2021"
+        },
+        {
+            "item": "mfu",
+            "quantity": "6",
+            "price": "18500",
+            "buyer": "Semenov A.C.",
+            "date": "19.12.2021"
+        },
+        {
+            "item": "videodeck",
+            "quantity": "2",
+            "price": "1500",
+            "buyer": "Warshavsky D.O.",
+            "date": "19.11.2021"
+        },
+        {
+            "item": "computer",
+            "quantity": "3",
+            "price": "28500",
+            "buyer": "Turovsky A.L.",
+            "date": "18.12.2021"
+        },
+        {
+            "item": "mfu",
+            "quantity": "6",
+            "price": "18500",
+            "buyer": "Semenov A.C.",
+            "date": "19.12.2021"
+        },
+        {
+            "item": "videodeck",
+            "quantity": "2",
+            "price": "1500",
+            "buyer": "Warshavsky D.O.",
+            "date": "19.11.2021"
+        },
+        {
+            "item": "computer",
+            "quantity": "3",
+            "price": "28500",
+            "buyer": "Turovsky A.L.",
+            "date": "18.12.2021"
+        }
+    ]
+}

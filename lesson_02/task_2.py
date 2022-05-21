@@ -13,20 +13,20 @@ import json
 
 def write_order_to_json(item: str, quantity: str, price: str, buyer: str, date: str) -> None:
 
-    with open('orders_1.json', 'r', encoding='utf-8') as f_out:
-        data = json.load(f_out)
+    with open('orders_1.json', 'r', encoding='utf-8') as file_out:
+        data = json.load(file_out)
 
-    with open('orders_1.json', 'w', encoding='utf-8') as f_in:
-        orders_list = data['orders']
-        order_info = {
+    with open('orders_1.json', 'w', encoding='utf-8') as file_in:
+        input_list = data['orders']
+        input_info = {
             'item': item,
             'quantity': quantity,
             'price': price,
             'buyer': buyer,
             'date': date
         }
-        orders_list.append(order_info)
-        json.dump(data, f_in, indent=4)
+        input_list.append(input_info)
+        json.dump(data, file_in, indent=4)
 
 write_order_to_json('mfu', '6', '18500', 'Semenov A.C.', '19.12.2021')
 write_order_to_json('videodeck', '2', '1500', 'Warshavsky D.O.', '19.11.2021')

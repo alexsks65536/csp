@@ -1,0 +1,9 @@
+items:
+- printer
+- computer
+- monitor
+items_quantity: 10
+items_cost:
+  printer: 10000€
+  computer: 15000€
+  monitor: 12000€
