@@ -97,13 +97,6 @@
             "price": "28500",
             "buyer": "Turovsky A.L.",
             "date": "18.12.2021"
-        },
-        {
-            "item": "mfu",
-            "quantity": "6",
-            "price": "18500",
-            "buyer": "Semenov A.C.",
-            "date": "19.12.2021"
         }
     ]
 }

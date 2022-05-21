@@ -14,6 +14,7 @@ info_1.txt, info_2.txt, info_3.txt и формирующий новый «отч
 Проверить работу программы через вызов функции write_to_csv().
 """
 
+
 import csv
 import re
 import chardet
