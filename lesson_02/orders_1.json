@@ -111,13 +111,6 @@
             "price": "1500",
             "buyer": "Warshavsky D.O.",
             "date": "19.11.2021"
-        },
-        {
-            "item": "computer",
-            "quantity": "3",
-            "price": "28500",
-            "buyer": "Turovsky A.L.",
-            "date": "18.12.2021"
         }
     ]
 }
