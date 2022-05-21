@@ -104,13 +104,6 @@
             "price": "18500",
             "buyer": "Semenov A.C.",
             "date": "19.12.2021"
-        },
-        {
-            "item": "videodeck",
-            "quantity": "2",
-            "price": "1500",
-            "buyer": "Warshavsky D.O.",
-            "date": "19.11.2021"
         }
     ]
 }
