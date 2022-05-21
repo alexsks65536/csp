@@ -10,6 +10,7 @@ addr — ip-адрес сервера; port — tcp-порт на сервере
 -a <addr> — IP-адрес для прослушивания (по умолчанию слушает все доступные адреса).
 """
 
+
 from socket import socket, AF_INET, SOCK_STREAM, SOL_SOCKET, SO_REUSEADDR
 
 SERV_SOCK = socket(AF_INET, SOCK_STREAM)
