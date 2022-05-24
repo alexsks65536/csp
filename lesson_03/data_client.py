@@ -1,0 +1,14 @@
+"""
+Программа клиент для отправки и получения ответа
+"""
+
+
+from socket import socket, AF_INET, SOCK_STREAM
+
+CLIENT_SOCK = socket(AF_INET, SOCK_STREAM)
+CLIENT_SOCK.connect(('localhost', 7777))
+MSG = 'Привет, сервер'
+CLIENT_SOCK.send(MSG.encode('utf-8'))
+DATA = CLIENT_SOCK.recv(4096)
+print(f"Сообщение от сервера: {DATA.decode('utf-8')} длиной {len(DATA)} байт")
+CLIENT_SOCK.close()

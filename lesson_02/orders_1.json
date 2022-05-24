@@ -95,22 +95,8 @@
             "item": "computer",
             "quantity": "3",
             "price": "28500",
-            "buyer": "Turovsky A.L.",
+            "buyer": "Turovskys A.L.",
             "date": "18.12.2021"
-        },
-        {
-            "item": "mfu",
-            "quantity": "6",
-            "price": "18500",
-            "buyer": "Semenov A.C.",
-            "date": "19.12.2021"
-        },
-        {
-            "item": "videodeck",
-            "quantity": "2",
-            "price": "1500",
-            "buyer": "Warshavsky D.O.",
-            "date": "19.11.2021"
         }
     ]
 }
