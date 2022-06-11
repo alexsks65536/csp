@@ -1,0 +1,16 @@
+2022-05-30 17:02:30,162 CRITICAL config_client_log.py Критическая ошибка
+2022-05-30 17:02:30,162 ERROR config_client_log.py Ошибка
+2022-05-30 17:02:30,162 DEBUG config_client_log.py Отладочная информация
+2022-05-30 17:02:30,162 INFO config_client_log.py Информационное сообщение
+2022-05-30 17:24:46,871 CRITICAL config_client_log.py Критическая ошибка
+2022-05-30 17:24:46,872 ERROR config_client_log.py Ошибка
+2022-05-30 17:24:46,872 DEBUG config_client_log.py Отладочная информация
+2022-05-30 17:24:46,872 INFO config_client_log.py Информационное сообщение
+2022-05-30 17:26:24,462 CRITICAL config_client_log.py Критическая ошибка
+2022-05-30 17:26:24,462 ERROR config_client_log.py Ошибка
+2022-05-30 17:26:24,462 DEBUG config_client_log.py Отладочная информация
+2022-05-30 17:26:24,462 INFO config_client_log.py Информационное сообщение
+2022-05-30 17:29:25,940 CRITICAL config_client_log.py Критическая ошибка
+2022-05-30 17:29:25,940 ERROR config_client_log.py Ошибка
+2022-05-30 17:29:25,940 DEBUG config_client_log.py Отладочная информация
+2022-05-30 17:29:25,940 INFO config_client_log.py Информационное сообщение
