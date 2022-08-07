@@ -17,7 +17,7 @@ from metaclasses import ServerMaker
 logger = logging.getLogger('server_dist')
 
 
-#  Парсер аргументов командной строки.
+#  Парсер аргументов командной строки
 @log
 def arg_parser():
     parser = argparse.ArgumentParser()

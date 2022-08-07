@@ -7,7 +7,7 @@ from common.variables import LOGGING_LEVEL
 # создаём формировщик логов (formatter):
 client_formatter = logging.Formatter('%(asctime)s %(levelname)s %(filename)s %(message)s')
 
-# Подготовка имени файла для логирования
+# Подготовка имени файла для логирования.
 path = os.path.dirname(os.path.abspath(__file__))
 path = os.path.join(path, 'client.log')
 

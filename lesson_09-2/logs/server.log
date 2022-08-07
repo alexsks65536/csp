@@ -45,5 +45,5 @@
 2022-08-07 18:50:01,260 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65531), raddr=('127.0.0.1', 7000)>, {'action': 'exit', 'time': 1659887401.2606673, 'account_name': 'test1'}) , {}. Вызов из модуля common.utils
 2022-08-07 18:50:01,565 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7000), raddr=('127.0.0.1', 65531)>,) , {}. Вызов из модуля common.utils
 2022-08-07 18:50:01,565 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1659887401.2606673, 'account_name': 'test1'}
-2022-08-07 18:50:01,565 INFO server.py Клиент ('127.0.0.1', 65531) отключился от сервера.
+2022-08-07 18:50:01,565 INFO server.py Клиент ('127.0.0.1', 65531) отключился от сервера
 
