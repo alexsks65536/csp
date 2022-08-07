@@ -8,13 +8,13 @@ from errors import ReqFieldMissingError, ServerError
 
 # Класс с тестами
 class TestClass(unittest.TestCase):
-    # тест коректного запроса
+    # тест коректного запроса.
     def test_def_presense(self):
         test = create_presence('Guest')
         test[TIME] = 1.1  # время необходимо приравнять принудительно иначе тест никогда не будет пройден
         self.assertEqual(test, {ACTION: PRESENCE, TIME: 1.1, USER: {ACCOUNT_NAME: 'Guest'}})
 
-    # тест корректтного разбора ответа 200
+    # тест корректного разбора ответа 200
     def test_200_ans(self):
         self.assertEqual(process_response_ans({RESPONSE: 200}), '200 : OK')
 
