@@ -31,3 +31,4 @@ if __name__ == '__main__':
     logger.error('Test error ivent')
     logger.debug('Test debug ivent')
     logger.info('Test info ivent')
+

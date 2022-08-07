@@ -82,7 +82,7 @@ class ServerMaker(type):
         super().__init__(clsname, bases, clsdict)
 
 
-# Метакласс для проверки корректности клиентов:
+#  Метакласс для проверки корректности клиентов:
 class ClientMaker(type):
     def __init__(cls, clsname, bases, clsdict):
         # Список методов, которые используются в функциях класса:
