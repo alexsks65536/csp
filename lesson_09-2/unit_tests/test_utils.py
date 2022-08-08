@@ -7,7 +7,7 @@ from errors import NonDictInputError
 
 
 # Тестовый класс для тестирования отправки и получения, при создании требует словарь, который будет прогонятся
-# через тестовую функцию
+# через тестовую функцию.
 class TestSocket:
     def __init__(self, test_dict):
         self.testdict = test_dict

@@ -7,7 +7,7 @@ while True:
     if action == 'q':
         break
     elif action == 's':
-        clients_count = int(input('Введите количество тестовых клиентов для запуска: '))
+        clients_count = int(input('Введите количество тестовых клиентов для запуска : '))
         # Запускаем сервер!
         process.append(subprocess.Popen('python server.py', creationflags=subprocess.CREATE_NEW_CONSOLE))
         # Запускаем клиентов:

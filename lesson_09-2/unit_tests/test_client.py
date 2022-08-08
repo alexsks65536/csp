@@ -8,7 +8,7 @@ from errors import ReqFieldMissingError, ServerError
 
 # Класс с тестами
 class TestClass(unittest.TestCase):
-    # тест коректного запроса.
+    # тест корректного запроса
     def test_def_presense(self):
         test = create_presence('Guest')
         test[TIME] = 1.1  # время необходимо приравнять принудительно иначе тест никогда не будет пройден
